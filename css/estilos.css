@@ -1,0 +1,129 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr 2fr;
+    background-color: rgb(255, 255, 255);
+    grid-gap:0px; ;
+    padding: 0px;
+  }
+  .grid-container>div{
+      background-color: rgb(255, 255, 255);;
+      text-align: center;
+      padding: 20px;
+      font-size: 15px;
+  }
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+.item7{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+.item8{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 8;
+    
+}
+.item9{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 8;
+    
+}
+.item10{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 8;
+    
+}
+.item11{
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+}
+.item12{
+    grid-column-start: 2;
+    grid-column-end: 6;
+    margin: auto;
+    
+}
+.item13{
+    grid-column-start: 6;
+    grid-column-end: 8;
+    
+}
+.item14{
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+}
+.item15{
+    grid-column-start: 2;
+    grid-column-end: 6;
+    height: 12px;
+    width: 85%;
+    margin: auto;
+    border-style: solid;
+    border-color: rgb(230, 230, 230);
+    border-radius: 20px;
+    border-width: 2px;
+}
+.item16{
+    grid-column-start: 6;
+    grid-column-end: 9;
+    
+}
+.item17{
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+}
+.item18{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    margin: auto;
+}
+.item19{
+    grid-column-start: 6;
+    grid-column-end: 8;
+    
+}
+.div_boton{
+    height: 20px;
+    margin-right: 10px;
+    border-style: solid;
+    border-color: rgb(230, 230, 230);
+    background-color: rgb(230, 230, 230);
+    border-radius: 6px;
+    border-width: 2px;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+.div_boton:hover{
+    background-color: rgb(245, 245, 245);
+}
+.div_enlaces{
+ 
+    margin: auto;
+}
+.social{
+    height: 30px;
+    position: fixed;
+    right: 10px;
+    bottom: 70px;
+}
